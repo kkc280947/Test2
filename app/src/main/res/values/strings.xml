@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Test2</string>
+    <string name="name">Krishnakant</string>
+    <string name="profile">Profile</string>
+    <string name="about">About</string>
+    <string name="qualification">Qualifications</string>
+    <string name="work">Work</string>
+    <string name="degree">B.tech</string>
+    <string name="university">University of Petroleum</string>
+    <string name="major">Major</string>
+    <string name="college">College/University</string>
+    <string name="abcontent">Text labels provide short, meaningfully definitions to bottom navigation icons. Avoid long text labels as these labels do not truncate or wrap.Text labels provide short, meaningfully definitions to bottom navigation icons. Avoid long text labels as these labels do not truncate or wrap.</string>
+</resources>

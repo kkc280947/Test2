@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about"
+        android:id="@+id/tvAbout"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:background="@android:color/darker_gray"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAboutContent"
+        android:layout_below="@+id/tvAbout"
+        android:layout_margin="5dp"
+        android:text="@string/abcontent"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/tvAboutContent"
+            android:text="@string/qualification"
+            android:padding="5dp"
+            android:background="@android:color/darker_gray"
+            android:id="@+id/tvQual"
+            />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/major"
+                android:layout_below="@id/tvQual"
+                android:id="@+id/tvQualMajor"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/degree"
+                android:layout_below="@+id/tvQualMajor"
+                android:layout_margin="10dp"
+                android:id="@+id/tvDegree"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvDegree"
+                android:layout_marginLeft="10dp"
+                android:text="@string/about"
+                android:id="@+id/tvCollege"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvCollege"
+                android:layout_margin="10dp"
+                android:id="@+id/tvUniversity"
+                android:text="@string/university" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/tvUniversity"
+                android:text="@string/work"
+                android:padding="5dp"
+                android:background="@android:color/darker_gray"
+                android:id="@+id/tvWork"
+                />
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvWork"
+                android:id="@+id/rvOverView">
+
+            </android.support.v7.widget.RecyclerView>
+
+
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
